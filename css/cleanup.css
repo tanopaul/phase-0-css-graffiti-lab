@@ -1,1 +1,22 @@
 /* write your override styles here */
+#wall #tag-2 {
+    display: none;
+}
+
+.tag-1 {
+    top: 2;
+    left: 2;
+}
+
+div#wall .parent #tag-5.slick {
+    z-index: 4;
+    background-color: black;
+}
+
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    position: relative;
+    top: 3;
+    left: 4;
+    width: 200px;
+    height: 802px;
+}
